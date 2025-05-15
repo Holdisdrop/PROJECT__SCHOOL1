@@ -1,0 +1,134 @@
+*{
+    font-style: Helvetica;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.navbar h3{
+    font-size: 60px;
+   position: relative;
+   z-index: 1;
+    left: 500px;
+    color: white;
+    bottom: 45px;
+}
+
+.navbar img{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    right: 300px;
+    font-style: Arial;
+}
+
+.table{
+    border: 1px dashed gray;
+    margin-left: 40px;
+    
+    text-align: center;
+}
+
+.div1{
+    display: flex;
+    gap: 15px;
+}
+
+button{
+width: 150px;
+height: 20px;}
+
+select{
+width: 100px}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.div2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 685px;
+    
+}
+
+.tr1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.tr2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.tr3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+ul{
+    list-style: circle;
+}
+
+.down__navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: gray;
+    margin-bottom: 200px;
+    height: 100px;
+}
+
+.down__navbar div{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+}
+
+.down__navbar div:hover{
+    background-color: gray;
+    
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.down__navbar p:hover{
+    color: white;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    background-color: gray;
+    padding: 100px;
+    color: white;
+}
